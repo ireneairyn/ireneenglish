@@ -1,0 +1,110 @@
+/* Datoar Framework */
+@media all{
+
+	html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video{margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+
+	/* Elementos */
+
+	html {height: 100%; margin: 0;}
+	body {line-height: 1;height: 100% ; margin: 0;}
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+	img{border:0;vertical-align:top;max-width:100%;height: inherit !important;}
+	ul, ol{ list-style:none;}
+	table{text-align: center;padding:0px;margin:0px;width:100%;border-collapse: collapse;border-spacing: 0;}
+	table tr{text-align: center;padding:0px;margin:0px;}
+	table tr td{text-align: center;padding:0;margin:0px;}
+	blockquote, q {quotes: none;}
+	blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+
+	iframe.height {width:100% !important;display: block;margin:0px;padding:0px;height:50px;}
+
+	/* Saltos */
+	.clear{clear:both;}
+	.clearHeight{clear:both;margin:0px 0px 40px; }
+
+	/* Capas */
+	.hide{display:none;margin:0px; }
+	.hideEmpty:empty{display:none;margin:0px; }
+	.noBlock{ display:inline-block;}
+	.alignleft, .alignLeft{float:left;margin-right:1em !important;}
+	.alignright, .alignRight{float:right;margin-left:1em !important;}
+
+	.noMarginBottom{ margin-bottom:0px !important;}
+
+	/* Texto */
+	.textCenter{text-align:center;}
+	.textRight{text-align:right;}
+
+	/* Estructura */
+	.entero, .mitad, .dobletercio, .tercio,.cuarto, .triplecuarto,  .quinto, .sexto, .octavo{display:block;float:left;margin:0px 0.5% 10px;}
+	.entero{width:99%;}
+	.mitad{width:49%;}
+	.dobletercio{width:65.6%;}
+	.tercio{width:32.33%;}
+	.triplecuarto{width:74%;}
+	.cuarto{width:24%;}
+	.quinto{width:19%;}
+	.sexto{width:15.66%;}
+	.octavo{width:11.5%;}
+
+
+	.enteroCenter, .mitadCenter, .tercioCenter, .cuartoCenter, .quintoCenter{display:block;float:left; padding:0px;}
+	.enteroCenter{margin:0px 17% 20px;width:66%;}
+	.mitadCenter{margin:0px 25% 20px;width:50%;}
+	.tercioCenter{margin:0px 33.33% 20px;width:33.33%;}
+	.cuartoCenter{margin:0px 37.5% 20px;width:24%;}
+	.quintoCenter{margin:0px 40% 20px;width:20%;}
+
+
+	.entero.margintopbottom, .mitad.margintopbottom, .dobletercio.margintopbottom, .tercio.margintopbottom,.cuarto.margintopbottom, .triplecuarto.margintopbottom,  .quinto.margintopbottom, .sexto.margintopbottom, .octavo.margintopbottom{
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+	.entero img, .mitad img, .dobletercio img, .tercio img,.cuarto img, .triplecuarto img,  .quinto img, .sexto img, .octavo img{
+		display:block;
+		width:100%;
+		text-align:center;
+	}
+
+	/* Sobrepuesto */
+	.absoluteDiv {position:relative;}
+	.absoluteDiv > div{position:absolute;}
+
+	/* Overflow */
+	.overflowAuto{overflow: auto !important;}
+	.overflowHidden{overflow: hidden !important;}
+
+	.adjustContent{
+	  margin: 0px auto;
+          max-width: 1280px;
+	}
+
+}
+@media all and (max-width: 1023px){
+	.octavo{width:24%;}
+	.sexto{width:32.33%;}
+	.cuarto, .triplecuarto{width:49%;}
+
+}
+@media all and (max-width: 767px){
+	.adjustContent{
+		width:96%;
+		margin:0 2%;
+	}
+
+	.enteroCenter, .mitadCenter,.tercioCenter, .cuartoCenter, .quintoCenter   {margin:0px 1%;width:96%; padding:10px 1%;}
+
+	.enteroCenter.nopadding, .mitadCenter.nopadding, .tercioCenter.nopadding, .cuartoCenter.nopadding, .quintoCenter.nopadding{margin:0px 2%;width:96%;padding:0px;}
+
+	.entero, .mitad, .tercio, .dobletercio{width:100%;margin:0px 0 20px;}
+	form .tercio, form .mitad{width:100%;margin:0px;}
+	.triplecuarto .tercio{width:29.3%;}
+
+
+}
+@media all and (max-width: 504px){
+	.tercio, .mitad, .cuarto, .triplecuarto, .quinto{width:100%;margin:0px 0 20px;}
+	.sexto, .octavo{width:46%;margin:5px 2%;}
+	.triplecuarto .tercio{width:96%;}
+
+}
