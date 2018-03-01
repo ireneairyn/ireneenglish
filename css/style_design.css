@@ -340,6 +340,9 @@ section.dark{
   color: #FFF;
   background-color:#000;
 }
+section#classes{
+  padding-top: 0;
+}
 
 
 
